@@ -22,6 +22,43 @@
             * ABRIL, JUNHO, SETEMBRO e NOVEMBRO: 30 dias
             * FEVEREIRO: 28 ou 29 dias (em anos bissextos)
         */
+       
+       let mes = parseInt(prompt('Informe um mês entre 1 e 12:'))
+
+       if(isNaN(mes)) {
+           alert('Os valores informados não correspodem a um número!')
+       }
+       //else {
+           switch(mes) {
+               case 1:
+               case 3:
+               case 5:        
+               case 7:
+               case 8:
+               case 10:
+               case 12:   
+
+               alert('O mês informado possui 31 dias!') 
+               break
+
+               case 4:
+               case 6:
+               case 9:
+               case 11:
+               alert('O mês informado possui 30 dias!')  
+               break
+               
+               default:
+                   alert('O mês informado pode ter 28 ou 29 dias (em anos bissextos)')
+           }
+           
+       }
+
+       
+
+    
+
+
 
     </script>
 </head>
