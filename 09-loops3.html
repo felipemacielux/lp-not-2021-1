@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página modelo</title>
+    <script>
+        //ativa verificações adicionais de variaveis
+        //modo "chato" do JS
+        'use strict'
+
+        //Contagem de 1 a 10
+        //Três partes do loop for (separadas por ;)
+        //1)Inicialização: a variavel de controle ganha seu valor inicial
+                //2)Condição: o loop executa enquanto essa condição for verdadeira
+                            //Incremento: resposável por alterar o valor da váriavel de controle
+        for(let i = 1; i <= 10; i++){ //i++ significa i = i +1
+            document.write(i + '<br>') //<br> quebra de linha em HTML
+
+        }
+
+        document.write('<hr>') //traço horizontal
+
+        //Contagem regressiva de 10 a 1
+        for(let i = 10; i >= 1; i--){ //i-- significa i = i -1
+              document.write(i + '<br>')      
+        }
+
+        document.write('<hr>') //traço horizontal
+
+        //Contagem de 1 a 100, saltando de 3 em 3
+        for(let i = 1 ; i<= 100; i +=3){ //i+= 3 significa i = i + 3
+            document.write(i + '<br>') 
+        }
+
+        //Características do loop for
+                //1) Quantidade de execuções: Determinada ou determinável
+                    //2) Garantia de execução: 0 vezes (sem garantia)                     
+                            //3) Local de teste: no início
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
